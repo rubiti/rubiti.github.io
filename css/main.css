@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: .5em;
 }
 .top-nav {
-  background: #612674;
+  background: #a23433;
   text-align: center;
 }
 .top-nav ul {
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 .top-nav a:hover {
-  background: #7c3792;
+  background: #a23433;
 }
 .top-content {
   padding: 1em;
@@ -57,12 +57,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #f6f6f6;
 }
 .top-content-title {
-  color: #612674;
+  color: #a23433;
   font-size: 1.375em; /* 22 / 16 */
   margin: 1.375em;
 }
 .top-content-subtitle {
-  color: #a87bb7;
+  color: #a23433;
   font-size: 1em;
   line-height: 1.5;
 }
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 62.5em) { /* 1000 / 16 */
   .top-content {
-    background: #a23433 url(../images/bg_topo_1198x670.jpg);
+    background-image: #a23433 url(../img/rubiti.svg);
     background-position: center bottom;
     height: 20em;
     padding-top: 17em;
@@ -193,10 +193,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 74em) {
   .top-content {
-    background-image: url(../images/bg_topo_1600x1374.jpg);
+    background: url(../img/rubiti.svg) no-repeat;
     padding: 19em 20em 10em;
-    background-position: center top;
-  }  
+    background-size: cover;
+  }
   .col-1-4 {
     width: 23%;
     margin: 1%;
