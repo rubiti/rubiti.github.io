@@ -244,13 +244,13 @@ input[type=checkbox] {
 }
 label {
   text-align: left;
-  padding-bottom: 0.6em;
 }
 /* input, label, textarea */
 .contact_sizing {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: .6em;
 }
 input, textarea, select {
   background: #eee;
