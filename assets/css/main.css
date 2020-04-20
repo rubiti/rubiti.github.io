@@ -239,4 +239,47 @@ input[type=checkbox] {
 	}
 	.inner_cta p {
 		font-size: 1.2em;
-	}
+  }
+  
+/* Contact */
+.contact {
+  padding: 0 2em;
+}
+label {
+  text-align: left;
+  padding-bottom: 0.6em;
+}
+input, label, textarea, select {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+input, textarea, select {
+  background: #eee;
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  margin-bottom: 15px;
+}
+textarea:focus {
+  border: 3px solid #ce1b28;
+  outline: none;
+}
+input:focus, textarea:focus {
+  border: 3px solid #ce1b28;
+  outline: none;
+}
+textarea {
+  height: 10em;
+  font: inherit;
+}
+.button {
+  background-color: #ce1b28;
+  color: #ffffff;
+  transition: all .5s;
+  font-weight: bold;
+}
+.button:focus {
+  background-color: #ffffff;
+  color: #ce1b28;
+}
