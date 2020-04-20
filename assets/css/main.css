@@ -210,4 +210,33 @@ input[type=checkbox] {
   }
   .highlights p {
     padding: 0 .2em .2em .2em;
-  }
+	}
+	
+	/* CTA */
+#cta {
+	background-color: #ce1b28;
+	color: rgba(255, 255, 255, 0.75);
+	background-attachment: fixed;
+	background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../images/cta01.jpg');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}	
+	.wrapper_cta {
+		padding: 8rem 0 6rem 0;
+		position: relative;
+		z-index: 1;
+	}
+	.inner_cta {
+		color: #ffffff;
+		padding: 0 2em 2em 2em;
+	}
+	.inner_cta h2 {
+		font-size: 2em;
+		padding-bottom: 2em;
+		text-transform: uppercase;
+	}
+	.inner_cta p {
+		font-size: 1.2em;
+	}
