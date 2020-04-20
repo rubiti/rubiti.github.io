@@ -6,7 +6,7 @@
 	Website: www.rubiti.com
 */
 
-body {font: 100% verdana, arial, tahoma, sans-serif;}
+body {font: 100% "Helvetica", "arial", "tahoma", "sans-serif";}
 
 .top {
   background-image: url('../images/cidade_longe.jpg');
@@ -130,12 +130,13 @@ input[type=checkbox] {
 #banner h3 {
   font-weight: 400;
   color: #fff;
-  margin: 0;
+  margin: .5em 0 0 0;
   font-size: 1.5em;
 }
 #banner p {
   font-size: 1em;
-  color: #e6e6e6;
+  color: #d8d8d8;
+  margin-top: 0.5em;
   margin-bottom: 1.75em;
 }
 
