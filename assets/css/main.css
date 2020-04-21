@@ -267,6 +267,7 @@ input, textarea {
   border-radius: 5px;
   border: 3px solid transparent;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 textarea:focus {
   border: 2px solid #ce1b28;
@@ -276,6 +277,10 @@ input:focus, textarea:focus {
   border: 2px solid #ce1b28;
   outline: none;
   background: #ffffff;
+  color: #000000;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+  color: transparent;
 }
 textarea {
   height: 10em;
