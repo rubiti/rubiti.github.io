@@ -246,27 +246,29 @@ input[type=checkbox] {
 label {
   text-align: left;
 }
-/* input, label, textarea */
-.contact_sizing {
+.contact-fields { /* input, label, textarea */
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
   padding-bottom: .6em;
+  transition: all 2s;
 }
-input, textarea, select {
-  background: #eee;
+input, textarea {
+  background: #d0d0d0;
+  color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   border: 3px solid transparent;
   margin-bottom: 15px;
 }
 textarea:focus {
-  border: 3px solid #ce1b28;
+  border: 2px solid #ce1b28;
   outline: none;
 }
 input:focus, textarea:focus {
-  border: 3px solid #ce1b28;
+  border: 2px solid #ce1b28;
   outline: none;
+  background: #ffffff;
 }
 textarea {
   height: 10em;
