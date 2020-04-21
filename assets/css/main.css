@@ -261,12 +261,12 @@ label {
   transition: all 1.5s;
 }
 input, textarea {
-  background: #d0d0d0;
+  background: #d3d3d3;
   padding: 15px;
   border-radius: 5px;
   border: 3px solid transparent;
   margin-bottom: 15px;
-  font-weight: bold;
+  
 }
 textarea:focus {
   border: 2px solid #ce1b28;
@@ -284,6 +284,7 @@ input:focus::placeholder, textarea:focus::placeholder {
 textarea {
   height: 10em;
   font: inherit;
+  font-size: 1.05em
 }
 .button {
   background-color: #ce1b28;
