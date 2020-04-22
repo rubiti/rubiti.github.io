@@ -348,3 +348,32 @@ textarea {
 .copyright a {
   color: #701111 !important;
 }
+
+/* media queries */
+@media(min-width: 600px) {
+  #logo_menu {
+    display: none;
+  }
+}
+@media(min-width: 721px) {
+  .sidebarIconToggle, .sidebarMenuInner-icon {
+    display: none;
+  }
+  .sidebarMenuInner {
+    height: 0;
+    padding: 0;
+    margin: 0 1.4em;
+  }
+  #sidebarMenu {
+    background-color: transparent;
+    position: relative;
+  }
+  #sidebarMenu .icon {
+    display: none;
+  }
+  #sidebarMenu li {
+    border: none;
+    float: right;
+    font-size: .9em;
+  }
+}
