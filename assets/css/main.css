@@ -355,25 +355,23 @@ textarea {
     display: none;
   }
 }
+@media(max-width: 720px) {
+  #topNav {
+    display: none;
+  }
+}
 @media(min-width: 721px) {
-  .sidebarIconToggle, .sidebarMenuInner-icon {
+  .sidebarIconToggle, #sidebarMenu {
     display: none;
   }
-  .sidebarMenuInner {
-    height: 0;
-    padding: 0;
-    margin: 0 1.4em;
-  }
-  #sidebarMenu {
-    background-color: transparent;
-    position: relative;
-  }
-  #sidebarMenu .icon {
-    display: none;
-  }
-  #sidebarMenu li {
-    border: none;
+  #topNav li {
     float: right;
+    position: relative;
+    padding-left: 0.3em;
+  }
+  #topNav li a {
+    text-decoration: none;
+    color: #f7f5f6;
     font-size: .9em;
   }
 }
