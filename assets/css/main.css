@@ -372,7 +372,7 @@ textarea {
   #topNav li {
     float: right;
     position: relative;
-    padding-left: 0.3em;
+    padding-left: 1em;
   }
   #topNav li a {
     text-decoration: none;
@@ -402,5 +402,10 @@ textarea {
   }
   #cta {
     background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../images/cta01_1366x1041.jpg');
+  }
+  .resp-footer {
+    width: 44%;
+    margin: 3%;
+    float: left;
   }
 }
