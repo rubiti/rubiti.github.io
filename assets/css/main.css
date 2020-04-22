@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
 /*
 	RUBITI INSTITUTIONAL by rubiti websites & websystems
   Author: Anderson Brandao
@@ -74,7 +75,7 @@ a.logo {
   position: fixed;
   right: 0;
   width: 100%;
-  transform: translateX(450px);
+  transform: translateX(720px);
   transition: transform 300ms ease-in-out;
   z-index: 10010;
   background:rgba(112, 17, 17, .97);
