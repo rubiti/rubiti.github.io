@@ -393,4 +393,14 @@ textarea {
     width: 22em;
     display: inline-block;
   }
+  .top {
+    background-image: url('../images/architectural_1366x768.jpg');
+    background-attachment: local;
+  }
+  .wrapper:before {
+    background-image: url('../images/predio_1362_864.jpg');
+  }
+  #cta {
+    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url('../images/cta01_1366x1041.jpg');
+  }
 }
