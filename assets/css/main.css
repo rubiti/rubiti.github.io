@@ -394,7 +394,7 @@ textarea {
     display: inline-block;
   }
   .top {
-    background-image: url('../images/architectural_1366x768.jpg');
+    background-image: url('../images/predio_full.jpg');
   }
   .wrapper:before {
     background-image: url('../images/predio_1362_864.jpg');
@@ -410,7 +410,7 @@ textarea {
 }
 @media screen and (min-width: 1280px) {
   .top {
-    background-image: url('../images/arch_modern.jpg');
+    background-image: url('../images/arch_modern_pb.jpg');
     font-size: 1.4em;
   }
   #cta {
@@ -421,5 +421,10 @@ textarea {
   }
   .copyright {
     font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1430px) {
+  body {
+    width: 1430px;
   }
 }
