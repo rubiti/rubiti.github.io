@@ -7,3 +7,4 @@
 - users
 - show
 - edit
+- contacts/index
