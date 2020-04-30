@@ -16,6 +16,41 @@ body, input, select, textarea {
 
 /* Sidebar */
 .sidebar {
+  background-color: #701111;
+  padding: 20px 20px 40px 20px;
+}
+.sidebar .icon {
+  padding-right: 1em;
+}
+.sidebar li {
+  font-weight: bold;
+  padding: 3px;
+  cursor: pointer;
+  border-bottom: 1px solid #d5baba;
+  font-size: 1.3em;
+}
+.sidebar a {
+  display: block;
+  font-weight: bold;
+  padding: 16px;
+  text-decoration: none;
+  color: #d5baba;
+}
+.sidebar img {
+  width: 7em;
+  padding-bottom: .8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+/* Sidebar
+.sidebar {
   margin: 0;
   padding: 0;
   width: 220px;
@@ -49,15 +84,16 @@ body, input, select, textarea {
   background-color: #555;
   color: white;
 }
+*/
 
-/* Content */
+/* Content 
 div.content {
   margin-left: 280px;
   padding: 5px 16px;
   height: 1000px;
 }
-
-/* Media queries */
+*/
+/* Media queries 
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -77,3 +113,4 @@ div.content {
     float: none;
   }
 }
+*/
