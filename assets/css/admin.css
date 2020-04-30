@@ -49,6 +49,57 @@ body, input, select, textarea {
   padding: 20px;
 }
 
+/* Media queries */
+@media screen and (min-width: 400px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+  }
+  .sidebar img {
+    display: none;
+  }
+  .sidebar .icon {
+    display: none;
+  }
+  .sidebar li {
+    border: none;
+    font-size: .9em;
+    padding: 0;
+  }
+  .sidebar li a {
+    float: left;
+  }
+}
+@media screen and (min-width: 700px) {
+  .sidebar {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+  }
+  .sidebar img {
+    width: 7em;
+    padding-bottom: .8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sidebar .icon {
+    display: inline;
+  }
+  .sidebar li {
+    padding: 3px;
+    font-size: 1.3em;
+  }
+  .sidebar li a {
+    border-bottom: 1px solid #d5baba;
+    float: initial;
+  }
+  div.content {
+    margin-left: 280px;
+    padding: 5px 16px;
+  }
+}
+
 /* Sidebar
 .sidebar {
   margin: 0;
