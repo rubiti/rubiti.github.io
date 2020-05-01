@@ -1,7 +1,7 @@
 # RUBIT Institutional Website's Layout
 
 ### Need to do:
-- admin
+- admin ok
 - login
 - register
 - users
