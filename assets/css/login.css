@@ -14,7 +14,7 @@ body, input {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-input[type=text], input[type=password] {
+input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -22,8 +22,14 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-label {
+label, h2 {
   color: #fff;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
 }
 button {
   background-color: #701111;

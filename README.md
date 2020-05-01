@@ -2,7 +2,7 @@
 
 ### Need to do:
 - admin ok
-- login
+- login ok
 - register
 - users
 - show
