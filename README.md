@@ -3,8 +3,9 @@
 ### Need to do:
 - admin ok
 - login ok
-- register
+- register ok
 - users
-- show
-- edit
 - contacts/index
+- show
+- edit ok
+- register ok

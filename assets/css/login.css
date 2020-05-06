@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 /* ==================================================================
 Theme Name: Rubiti Institutional
@@ -9,10 +8,6 @@ E-mail: brandao@rubiti.com
 Website: http://www.rubiti.com
 github: @abrandao @rubiti
 ================================================================== */
-
-body, input {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-}
 
 input {
   width: 100%;
