@@ -4,9 +4,9 @@
 - admin ok
 - login ok
 - register ok
-- users
+- users ok
 - users/show
-- users/new
+- users/new/edit
 - contacts/index ok
 - edit ok
 - register ok
