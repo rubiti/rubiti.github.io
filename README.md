@@ -5,7 +5,8 @@
 - login ok
 - register ok
 - users
+- users/show
+- users/new
 - contacts/index ok
-- show
 - edit ok
 - register ok
