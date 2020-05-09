@@ -105,6 +105,32 @@ button:focus, button:hover {
   opacity: .7;
   font-weight: bold;
 }
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.regular-button {
+  background-color: #701111;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.regular-button:hover {
+  opacity: .8;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
 
 /* Tables */
 tr.header {
